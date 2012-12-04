@@ -4,8 +4,8 @@ class TcpmonGrailsPlugin {
 	String grailsVersion = '2.0 > *'
 	String author = 'Burt Beckwith'
 	String authorEmail = 'beckwithb@vmware.com'
-	String title = 'Tcpmon Plugin'
-	String description = 'Tcpmon Plugin'
+	String title = 'TCPMon Plugin'
+	String description = 'Provides the TCPMon web service monitoring tool'
 	String documentation = 'http://grails.org/plugin/tcpmon'
 
 	String license = 'APACHE'

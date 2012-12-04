@@ -2,7 +2,7 @@ import org.apache.ws.commons.tcpmon.TCPMon
 
 includeTargets << grailsScript('_GrailsInit')
 
-target(tcpmon: 'Runs tcpmon') {
+target(tcpmon: 'Runs TCPMon') {
 	depends(classpath, checkVersion, configureProxy)
 
 	argsList = argsMap.params
